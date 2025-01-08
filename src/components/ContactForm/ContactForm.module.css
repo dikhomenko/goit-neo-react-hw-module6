@@ -1,0 +1,30 @@
+.form {
+  margin-bottom: 20px;
+  padding: 30px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input {
+  padding: 8px;
+  width: 100%;
+}
+
+.button {
+  padding: 8px;
+  background-color: #37b2d1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+.error {
+  color: red;
+}
